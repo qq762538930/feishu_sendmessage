@@ -1,18 +1,7 @@
 # feishu_sendmessage
 
-A new Flutter project.
+A new test Flutter project.
 
-第一次尝试token密钥上传2
+此项目采用token密钥上传
+为保证clone至本地的项目顺利build，上传时需清空本地build
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
