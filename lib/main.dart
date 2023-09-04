@@ -102,7 +102,7 @@ class _MyCustomFormState extends State<MyCustomForm> {
     var request = http.Request(
         'POST',
         Uri.parse(
-            'https://open.feishu.cn/open-apis/bot/v2/hook/a2eff83d-3089-4900-b929-5f10f2fd6ff1?msg_type=text&content={"text":"$data"}'));
+            'https://open.feishu.cn/open-apis/bot/v2/hook/${{ secrets.hook_sercet }}?msg_type=text&content={"text":"$data"}'));
 
     request.headers.addAll(headers);
 
